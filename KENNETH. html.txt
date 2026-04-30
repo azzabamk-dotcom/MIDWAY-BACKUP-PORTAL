@@ -1,4 +1,4 @@
-<! DOCTYPE html>
+<! DOCTYPE html>.
 <html lang="en">
 <head>
  <meta charset="UTF-8">
@@ -41,7 +41,7 @@ body {
  }
 
 header img {
- width: 80px; /* Adjust size as needed */
+ width: 80px;
  height: auto;
  }
 
@@ -161,9 +161,7 @@ tr:nth-child(even) { background-color: #f2f2f2; }
 
 <div class="container">
  <header>
- <!-- The logo is added here -->
- <img src="image_2.png"alt="Midway Logo">
- <h1>MIDWAY COLLEGES <br><small>(student backup portal)</small></h1>
+ <img src="logo.jpg" alt="Midway Logo"> <h1>MIDWAY COLLEGES <br><small>(student backup portal)</small></h1>
  </header>
 
 <div id="login-section">
@@ -209,8 +207,7 @@ tr:nth-child(even) { background-color: #f2f2f2; }
  const sNum = document.getElementById('studentNum').value;
  const pass = document.getElementById('password').value;
 
-In a real application, never hardcode credentials like this!
- if(sNum === "2400156" && pass === "2400156") {
+if(sNum === "2400156" && pass === "2400156") {
  document.getElementById('login-section').style.display = 'none';
  document.getElementById('dashboard').style.display = 'block';
  } else {
@@ -302,7 +299,7 @@ if(year === "2526") {
  } else if(year === "2425") {
  wrapper.innerHTML = "<p style='padding:20px;' >Records found for previous year. Loading data... </p>";
  } else {
- wrapper.innerHTML = "";
+ WRApper.innerHTML = "";
  }
  }
 </script>
