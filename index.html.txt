@@ -199,7 +199,7 @@ tr:nth-child(even) { background-color: #f2f2f2; }
  <label>Password:</label>
  <input type="password" id="password" placeholder="••••••••">
  </div>
- <button id="login-btn" onclick="handleLogin()">LOGIN</button>
+ < button id="login-btn" onclick="handleLogin()">LOGIN</button>
  </div>
 
 <div id="dashboard">
@@ -234,22 +234,23 @@ tr:nth-child(even) { background-color: #f2f2f2; }
 
 <div id="enrollment-data" style="display:none;" class="enrollment-details">
  <hr>
- <p><strong>FULL NAME:</strong> JOHN DELITO MABAZZA</p>
- <p><strong>ADDRESS:</strong> PUROK 3, TABUENG, NUEVA VIZCAYA</p>
+ <p><strong>FULL NAME:</strong> JOHN DELITO KENNETE MABAZZA</p>
+ <p><strong>COMPLETE ADDRESS:</strong> PUROK 3 TABUENG ARITAO NUEVA VIZCAYA</p>
  <p><strong>CURRICULUM:</strong> 2023</p>
+ <p><strong>STANDARD/PROGRAM:</strong> BACHELOR OF SCIENCE IN MARINE TRANSPORTATION</p>
  
 <div class="setting-dropdown" onclick="toggleSetting()"> ⚙️ SETTING (Click to expand terms)
  </div>
  
 <div id="setting-content" class="term-status">
- <p>FIRST TERM 2026-2027 <span class="status-tag">ENROLLED</span></p>
- <p>SECOND TERM 2025-2026 <span class="status-tag">ENROLLED</span></p>
- <p>THIRD TERM 2025-2026 <span class="status-tag">ENROLLED</span></p>
+ <p>FIRST TERM</p>
+ <p>SECOND TERM</p>
+ <p>THIRD TERM</p>
  </div>
 
-<p style="margin-top:20px;" ><strong>DATE ENROLLED:</strong> 2024-06-24 09:04:35</p>
- <p><strong>STUDENT NO:</strong> 2400156</p>
- <p><strong>YEAR LEVEL:</strong> FIRST YEAR</p>
+<p style="margin-top:20px;" ><strong>STATUS:</strong> ACTIVE</p>
+ <p><strong>LRN:</strong> 400484150109</p>
+ <p><strong>DATE ENROLLED:</strong> 2024-06-24-09:04:35</p>
  </div>
  </div>
  </div>
@@ -260,8 +261,7 @@ tr:nth-child(even) { background-color: #f2f2f2; }
  const sNum = document.getElementById('studentNum').value;
  const pass = document.getElementById('password').value;
  
-Updated logic to match your request
- if(sNum === "2400156" && pass === "2400156") {
+if(sNum === "2400156" && pass === "2400156") {
  document.getElementById('login-section').style.display = 'none';
  document.getElementById('dashboard').style.display = 'block';
  } else {
@@ -322,3 +322,5 @@ function toggleSetting() {
 
 </body>
 </html>
+Compose
+Write to John C Azzabam
